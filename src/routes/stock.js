@@ -1,3 +1,6 @@
+const {SuccessModel} = require("../model/responseModel")
+
+
 const handleStockRoute  = (req, res) => {
     // 定义处理路由的逻辑
     if (req.method === 'GET' && req.path === '/api/v1/stock/list') {
